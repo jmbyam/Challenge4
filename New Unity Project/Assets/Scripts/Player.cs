@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.E))
 		{
 			TakeDamage(20);
+			Debug.Log("Ouch that hurt!");
 		}
 		if (currentHealth == 0){
 			transform.position = StartPoint;
